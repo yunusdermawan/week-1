@@ -25,23 +25,35 @@
         </header>
         <main>
             <div class="main-container">
-                <div class="main-title">
-                    
+                <div class="profile-pict">
+                    <img src="profile.png" alt="profile picture">
                 </div>
-                <div>
-                    <form class="main-form">
-                        <input type="text" placeholder="Username"><hr>
-                        <input type="password" placeholder="Password">
-                        <div class="btn-wrapper">
-                            <input class="masuk" type="submit" value="Masuk">
-                            <input class="daftar" type="submit" value="Google">
-                        </div>
-                    </form>
+                <div class="title">
+                    <h1>Username</h1>
                 </div>
-                <div class="daftar-label">
-                    <p>belum punya akun?</p>
-                    <a href="daftar.html">Daftar</a>
-                </div>
+                <form>
+                    <div class="grid-container">
+                        <select name="kelas" class="item1">
+                            <option>pilih kelas</option>
+                            <option value="dasar">Dasar</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>
+                        </select>
+                        <select name="jam" class="item2">
+                            <option>Jam</option>
+                            <option value="09.00">09.00</option>
+                            <option value="13.00">13.00</option>
+                            <option value="19.00">19.00</option>
+                        </select>
+                        <select name="hari" class="item3">
+                            <option>Hari</option>
+                            <option value="Senin">Senin</option>
+                            <option value="Selasa">Selasa</option>
+                            <option value="Rabu">Rabu</option>
+                        </select>
+                        <input class="item4" type="submit" value="Pesan">
+                    </div>
+                </form>
             </div>
         </main>
     </div>
