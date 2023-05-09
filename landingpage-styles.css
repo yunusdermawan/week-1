@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+.container {
+    background: #f0f0f0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding-left: 100px;
+    padding: 50px 30px;
+    background: #0080FF;
+}
+
+.logo-container h1 {
+    font-size: 50px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main-container {
+    width: 80%;
+    height: 50vh;
+    background: white;
+    margin: 75px auto;
+    border-radius: 30px;
+    box-shadow: 5px 3px 10px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title-container {
+    display: block;
+    text-align: center;
+}
+
+.title-container h1 {
+    font-size: 50px;
+}
+
+.content-container {
+    width: 60%;
+    text-align: center;
+    font-size: 15px;
+   
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.substats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+form input[type=submit] {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: #0080FF;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.body-image {
+    width: 600px;
+    height: 650px;
+    overflow: hidden;
+    object-fit: contain;
+    display: block;
+    border-radius: 30px;
+    align-self: flex-start;
+}
+
+.body-image img {
+    width: 150%;
+    height: 100%;
+    object-position: -130px 50%;
+}
+
